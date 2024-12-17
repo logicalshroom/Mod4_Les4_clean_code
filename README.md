@@ -9,7 +9,7 @@ Code Example: Before Refactoring:
 
 # Weather Forecast Application Script
 
-def fetch_weather_data(city):
+'''def fetch_weather_data(city):
     # Simulated function to fetch weather data for a given city
     print(f"Fetching weather data for {city}...")
     # Simulated data based on city
@@ -54,7 +54,7 @@ def main():
             forecast = get_detailed_forecast(city)
         else:
             forecast = display_weather(city)
-        print(forecast)
+        print(forecast)'''
 
 if __name__ == "__main__":
     main()
